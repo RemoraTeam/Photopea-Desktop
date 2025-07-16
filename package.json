@@ -1,0 +1,41 @@
+{
+  "name": "photopea-desktop",
+  "version": "2.0.0",
+  "description": "Photopea w aplikacji desktopowej z Discord Rich Presence",
+  "main": "index.js",
+  "author": "RemoraTeam",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.photopea.desktop",
+    "productName": "Photopea Desktop",
+    "files": [
+      "**/*"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    },
+    "win": {
+      "target": ["nsis", "portable"],
+      "icon": "ikona.ico"
+    },
+    "linux": {
+      "target": ["AppImage", "deb"],
+      "icon": "ikona.png",
+      "category": "Graphics"
+    },
+    "mac": {
+      "target": ["dmg", "zip"],
+      "icon": "ikona.icns"
+    }
+  },
+  "dependencies": {
+    "discord-rpc": "^4.0.1"
+  },
+  "devDependencies": {
+    "electron": "^29.1.0",
+    "electron-builder": "^24.6.0"
+  }
+}
