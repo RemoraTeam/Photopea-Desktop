@@ -62,4 +62,4 @@ npm install</code></pre>
 └── dist/ (tworzony po buildzie)</code></pre>
 
   <h2>📬 Masz pytania?</h2>
-  <p>Skontaktuj się z nami na <a href="https://dc.gg/matisio">Discordzie</a> lub na maila <a href="mailto:itsmatisio@outlook.fr">itsmatisio@outlook.fr</a></p>
+  <p>Skontaktuj się z nami na <a href="https://dc.gg/matisio">Discordzie</a> lub na maila <a href="mailto:iammatisio@gmail.com">iammatisio@gmail.com</a></p>
